@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Juego de Arkanoid</h1>
+    <br>
+    <table>
+        <tr>
+            <td id="marcador" colspan="8" rowspan="2"><span id="MarcadorEspecial">1 UP HIGH SCORE</span> <br> <span id="MarcadorNum">00 50000</span> </td>
+        </tr>
+        <tr>          
+        </tr>
+        <tr>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+            <td id="fila1"></td>
+        </tr>
+        <tr>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+            <td id="fila2" ></td>
+        </tr>
+        <tr>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+            <td id="fila3" ></td>
+        </tr>
+        <tr>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+            <td id="fila4" ></td>
+        </tr>
+        <tr>
+            <td id="fila5" ></td>
+            <td id="fila5" ></td>
+            <td id="fila5" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="fila5" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="fila5" ></td>
+        </tr>
+        <tr>
+            <td id="fila6" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="fila6" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="fila6" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecialbola" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+        <tr>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" colspan="2"><img id="barra" src="./img/barra.png" alt=""></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+            <td id="celdaEspecial" ></td>
+        </tr>
+    </table>
+</body>
+</html>
